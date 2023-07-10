@@ -20,7 +20,7 @@ export default defineComponent({
       return (value / this.$store.state.questions.length) * 100
     },
     isScoreGood(): boolean {
-      if (this.scoreProcents(this.$store.state.score) > 80) {
+      if (this.scoreProcents(this.$store.state.score) >= 80) {
         return true
       } else {
         return false
