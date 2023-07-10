@@ -7,6 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
+    "sass": "^1.63.6",
     "vue": "^3.2.13",
     "vuex": "^4.0.0"
   },
@@ -14,6 +16,8 @@
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "prettier": "^3.0.0",
+    "sass-loader": "^13.3.2",
     "typescript": "~4.5.5"
   }
 }
